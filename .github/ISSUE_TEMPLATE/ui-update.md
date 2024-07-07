@@ -1,7 +1,7 @@
 ---
 name: UI Update
 about: Describe what ui change should be done
-title: "[UI]"
+title: "[UI] - "
 labels: ui update
 assignees: ''
 
