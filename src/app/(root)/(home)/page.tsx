@@ -23,6 +23,7 @@ const Page = ({ chat }: Props) => {
   return (
     <ResizablePanelGroup
       direction="horizontal"
+      autoSaveId="persistence"
       className="grid md:grid-cols-[0.5fr_2fr] w-full grid-rows-[auto] [grid-auto-columns:fr]"
     >
       <ResizablePanel className="relative border-r min-w-[330px] max-w-[50vw]">
