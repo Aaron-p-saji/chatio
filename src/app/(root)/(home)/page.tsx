@@ -12,11 +12,7 @@ import {
   ResizablePanelGroup,
 } from "@/components/ui/resizable";
 
-type Props = {
-  chat: React.ReactNode;
-};
-
-const Page = ({ chat }: Props) => {
+const Page = () => {
   const [isLoading, setLoading] = useState<boolean>(false);
   const [search, setSearch] = useState<string>("");
   const [selectedChat, setSelectedChat] = useState<string | null>(null);
